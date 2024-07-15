@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "InfobipRTCExtensions",
-            url: "https://rtc.cdn.infobip.com/ios/extensions/0.0.26/InfobipRTCExtensions.zip",
-            checksum: "3f4d2866e8e85385365b7853dd8515d490cf0419b3cc45381d4ba8855f5efbde"
+            url: "https://rtc.cdn.infobip.com/ios/extensions/0.0.27/InfobipRTCExtensions.zip",
+            checksum: "44b697e2b23131f1f4365f11f2a8af7937ce2a9a3c70b46dc49e0e98a2adead6"
         )
     ]
 )
