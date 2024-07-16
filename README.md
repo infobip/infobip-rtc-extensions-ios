@@ -11,7 +11,7 @@ There is also in-depth reference documentation available.
 
 ## Getting the library
 
-There are several ways to install our library. We publish it on CocoaPods, Swift Package Manager and Carthage.
+Please note that the library is currently only available on CocoaPods.
 
 ### CocoaPods
 
@@ -22,25 +22,6 @@ pod 'InfobipRTCExtensions'
 ```
 
 To install newly added dependencies, simply run `pod install`.
-
-### Swift Package Manager
-
-If you want to install our library using Swift Package Manager, add the GitHub repository
-`https://github.com/infobip/infobip-rtc-extensions-ios/` as a Swift Package.
-
-### Carthage
-
-If you want to use Carthage dependency manager, add these dependencies to your `Cartfile`:
-
-```ogdl
-github "infobip/infobip-rtc-extensions" ~> 1.0.0
-```
-
-When using it for the first time, run `carthage bootstrap --use-xcframeworks`. Otherwise,
-run `carthage update --use-xcframeworks` to update dependencies.
-
-Find `InfobipRTCExtensions.xcframework` in the `Carthage/Build` folder and drag and drop it in
-the `Frameworks, Libraries, and Embedded Content` section of your application target's General settings.
 
 ### Using the Lib
 
